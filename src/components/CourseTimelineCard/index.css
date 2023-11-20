@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.title-duration-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.clock {
+  height: 15px;
+  width: 15px;
+  margin-right: 3px;
+}
+.title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+}
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+}
+.tag-name-cont {
+  background-color: rgb(241, 233, 233);
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
